@@ -1,0 +1,37 @@
+{
+  "name": "fisher-yates-shuffle",
+  "version": "1.0.0",
+  "description": "A compact module to randomly sort an Array",
+  "main": "index.js",
+  "scripts": {
+    "standard": "standard",
+    "test": "npm run-script unit",
+    "unit": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dcousens/fisher-yates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dcousens/fisher-yates/issues"
+  },
+  "homepage": "https://github.com/dcousens/fisher-yates",
+  "keywords": [
+    "array",
+    "fisher-yates",
+    "list",
+    "random",
+    "randomly",
+    "shuffle",
+    "shuffling",
+    "sort",
+    "sorted",
+    "sorting"
+  ],
+  "author": "Daniel Cousens",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "*",
+    "standard": "*"
+  }
+}

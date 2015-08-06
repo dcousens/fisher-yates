@@ -1,5 +1,5 @@
 {
-  "name": "fisher-yates-shuffle",
+  "name": "fisher-yates",
   "version": "1.0.0",
   "description": "A compact module to randomly sort an Array",
   "main": "index.js",

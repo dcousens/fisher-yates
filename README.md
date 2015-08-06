@@ -3,6 +3,8 @@
 [![TRAVIS](https://secure.travis-ci.org/dcousens/fisher-yates.png)](http://travis-ci.org/dcousens/fisher-yates)
 [![NPM](http://img.shields.io/npm/v/fisher-yates.svg)](https://www.npmjs.org/package/fisher-yates)
 
+A compact module to randomly sort an Array.
+
 
 ## Example
 

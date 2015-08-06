@@ -19,6 +19,16 @@ console.log(shuffle([1, 2, 3], Math.random))
 // => [2, 3, 1]
 ```
 
+To shuffle in-place:
+
+``` javascript
+var shuffleInplace = require('fisher-yates/mutable')
+var array = [1, 2, 3]
+
+shuffleInplace(array)
+console.log(array)
+// => [2, 1, 3]
+```
 
 ## License
 

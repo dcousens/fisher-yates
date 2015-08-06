@@ -30,6 +30,4 @@ console.log(array)
 // => [2, 1, 3]
 ```
 
-## License
-
-This library is free and open-source software released under the MIT license.
+## LICENSE [MIT](LICENSE)

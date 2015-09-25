@@ -1,4 +1,4 @@
-module.exports = function shuffle (array, rng) {
+module.exports = function shuffleInplace (array, rng) {
   rng = rng || Math.random
 
   var k = array.length

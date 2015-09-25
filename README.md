@@ -22,7 +22,7 @@ console.log(shuffle([1, 2, 3], Math.random))
 To shuffle in-place:
 
 ``` javascript
-var shuffleInplace = require('fisher-yates/mutable')
+var shuffleInplace = require('fisher-yates/inplace')
 var array = [1, 2, 3]
 
 shuffleInplace(array)

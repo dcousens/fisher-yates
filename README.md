@@ -1,7 +1,6 @@
 # fisher-yates
-
-[![TRAVIS](https://secure.travis-ci.org/dcousens/fisher-yates.png)](http://travis-ci.org/dcousens/fisher-yates)
 [![NPM](http://img.shields.io/npm/v/fisher-yates.svg)](https://www.npmjs.org/package/fisher-yates)
+[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 A compact module to randomly sort an Array.
 
@@ -9,7 +8,7 @@ A compact module to randomly sort an Array.
 ## Example
 
 ``` javascript
-var shuffle = require('fisher-yates')
+const shuffle = require('fisher-yates')
 
 console.log(shuffle([1, 2, 3]))
 // => [3, 1, 2]
@@ -22,8 +21,8 @@ console.log(shuffle([1, 2, 3], Math.random))
 To shuffle in-place:
 
 ``` javascript
-var shuffleInplace = require('fisher-yates/inplace')
-var array = [1, 2, 3]
+const shuffleInplace = require('fisher-yates/inplace')
+const array = [1, 2, 3]
 
 shuffleInplace(array)
 console.log(array)

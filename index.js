@@ -1,10 +1,10 @@
 module.exports = function shuffle (array, rng) {
   rng = rng || Math.random
 
-  var result = []
+  const result = []
 
-  for (var i = 0; i < array.length; ++i) {
-    var j = Math.floor(rng() * (i + 1))
+  for (let i = 0; i < array.length; ++i) {
+    const j = Math.floor(rng() * (i + 1))
 
     if (j !== i) {
       result[i] = result[j]

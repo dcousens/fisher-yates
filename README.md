@@ -5,7 +5,7 @@
 A compact module to randomly sort an Array.
 
 
-## Example
+## Usage
 
 ``` javascript
 const shuffle = require('fisher-yates')
@@ -18,8 +18,7 @@ console.log(shuffle([1, 2, 3], Math.random))
 // => [2, 3, 1]
 ```
 
-To shuffle in-place:
-
+For shuffling your array in-place, use `fisher-yates/inplace`
 ``` javascript
 const shuffleInplace = require('fisher-yates/inplace')
 const array = [1, 2, 3]

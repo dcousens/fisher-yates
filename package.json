@@ -3,10 +3,10 @@
   "version": "1.0.3",
   "description": "A compact module to randomly sort an Array",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "standard": "standard",
-    "test": "npm run-script unit",
-    "unit": "mocha"
+    "test": "node test/*.js"
   },
   "repository": {
     "type": "git",
@@ -31,7 +31,6 @@
   "author": "Daniel Cousens",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "*",
     "standard": "*"
   }
 }

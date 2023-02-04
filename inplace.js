@@ -1,15 +1,15 @@
 module.exports = function shuffleInplace (array, rng) {
   rng = rng || Math.random
 
-  var k = array.length
+  let k = array.length
 
   while (k) {
-    var i = Math.floor(rng() * k)
+    const i = Math.floor(rng() * k)
     k--
 
-    var temp = array[k]
+    const tmp = array[k]
     array[k] = array[i]
-    array[i] = temp
+    array[i] = tmp
   }
 
   return array

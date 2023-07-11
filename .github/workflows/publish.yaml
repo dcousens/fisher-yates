@@ -1,0 +1,21 @@
+# ref https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
+name: Publish
+
+on:
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    environment: Release
+    steps:
+      - uses: actions/checkout@main
+      - uses: actions/setup-node@main
+        with:
+          node-version: lts/*
+          registry-url: 'https://registry.npmjs.org'
+
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

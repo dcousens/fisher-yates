@@ -1,6 +1,6 @@
 {
   "name": "fisher-yates",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A compact module to randomly sort an Array",
   "main": "index.js",
   "scripts": {

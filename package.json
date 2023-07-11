@@ -4,8 +4,8 @@
   "description": "A compact module to randomly sort an Array",
   "main": "index.js",
   "types": "index.d.ts",
+  "packageManager": "pnpm@8.6.7",
   "scripts": {
-    "standard": "standard",
     "test": "node test/*.js"
   },
   "repository": {
@@ -29,8 +29,5 @@
     "sorting"
   ],
   "author": "Daniel Cousens",
-  "license": "MIT",
-  "devDependencies": {
-    "standard": "*"
-  }
+  "license": "MIT"
 }

@@ -1,6 +1,7 @@
 # fisher-yates
-[![NPM](http://img.shields.io/npm/v/fisher-yates.svg)](https://www.npmjs.org/package/fisher-yates)
-[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+<a aria-label="npm version" href="https://www.npmjs.com/package/fisher-yates">
+    <img alt="" src="https://img.shields.io/npm/v/fisher-yates.svg?style=for-the-badge&labelColor=0869B8">
+</a>
 
 A compact module to randomly sort an Array.
 
